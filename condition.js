@@ -143,17 +143,17 @@
 // console.log (rem)
 
 
-let year = 2100; 
-if (year % 4 ==0 && year % 100 != 0 || year % 400 ==0) {
-    console.log("LEAP YEAR")
-} else {
-    console.log("NOT LEAP YEAR")
-} 
+// let year = 2100; 
+// if (year % 4 ==0 && year % 100 != 0 || year % 400 ==0) {
+//     console.log("LEAP YEAR")
+// } else {
+//     console.log("NOT LEAP YEAR")
+// } 
 
 
 
 
-// let A = 10; b = 12;
+// let a = 10; b = 12;
 // if (a < b && a > b) {
 //     console.log(true)
 // } else {
@@ -162,7 +162,60 @@ if (year % 4 ==0 && year % 100 != 0 || year % 400 ==0) {
     
 
 
+// let A = 50; B = 90; C = 30;
 
+// if (A>B && A>C) {
+//     console.log(A)
+// } else if (B>A && B>C) {
+//     console.log(B)
+// } else if (C>A && C>B) {
+//     console.log(C)
+// } 
+
+
+
+// const a = 700; b = 200; c = 300; 
+// if (a<b && a<c) {
+//     console.log(a)
+// } else if (b<a && b<c) {
+//     console.log(b)
+// } else if (c<a && c<b) {
+//     console.log(c)
+// }  
+
+
+
+let A = 30; B = 20; 
+if (A > B) {
+    console.log (A)
+} else if (B > A) {
+    console.log (B)
+} 
+
+const a = 15; b = 25;
+if(a<b) {
+    console.log (a)
+} else if (b<a) {
+    console.log (b)
+} 
+ 
+
+
+
+// let a=150; b=90; c=10; d=20; sum=0;
+// if (a>=80) {
+//     sum += a;
+// } 
+// if(b>= 80){
+//     sum+= b;
+// }
+// if(c>=80){
+//     sum = sum + c;
+// }
+// if(d>=80){
+//     sum += d; 
+// } 
+// console.log(sum)
 
 
 
