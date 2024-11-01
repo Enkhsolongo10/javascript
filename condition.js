@@ -37,7 +37,6 @@
 //     console.log("B")
 // } else if ( grade > 90 && grade <= 100 ) {
 //     console.log("A")
-// }
 
 
 
@@ -185,19 +184,29 @@
 
 
 
-let A = 30; B = 20; 
-if (A > B) {
-    console.log (A)
-} else if (B > A) {
-    console.log (B)
-} 
+// let A = 30; B = 20; 
+// if (A > B) {
+//     console.log (A)
+// } else if (B > A) {
+//     console.log (B)
+// } 
 
-const a = 15; b = 25;
-if(a<b) {
-    console.log (a)
-} else if (b<a) {
-    console.log (b)
-} 
+// const a = 15; b = 25;
+// if(a<b) {
+//     console.log (a)
+// } else if (b<a) {
+//     console.log (b)
+// } 
+
+
+
+// let a=10; b=20; c=30; d=40;
+
+// if(a>b && a>c) {
+//     console.log(a)
+// } else if (b>a && b>c) {
+
+// }
  
 
 

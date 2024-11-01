@@ -16,3 +16,8 @@ age = 31
 console.log(age, lastname);
 let age = 30;
 console.log(typeof age);
+
+a=4; b=4 
+if(a===b){
+    console.log("a is equal to b")
+} 
