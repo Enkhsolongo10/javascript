@@ -140,76 +140,108 @@
 // let coffee = 0;
 
 // while(coffee<=9) {
-//     coffee++
-//     {console.log("Та " , coffee , " дахь кофегоо худалдан авлаа!")
-//     }
-//     if(coffee % 3 == 0) {
-//         console.log("Танд үнэгүй бялуу бэлэглэж байна!")
-//     }
-//     if(coffee === 10)
-//         console.log("Баяр хүргэе! Та үнэгүй кофе авлаа!" )
+    // coffee++
+    // {console.log("Та " , coffee , " дахь кофегоо худалдан авлаа!")
+    // }
+    // if(coffee % 3 == 0) {
+        // console.log("Танд үнэгүй бялуу бэлэглэж байна!")
+    // }
+    // if(coffee === 10)
+        // console.log("Баяр хүргэе! Та үнэгүй кофе авлаа!" )
 // }
 // console.log("Урамшууллын карт дууслаа!") 
-
-
-// //bodlogo14: 4 tooni iheese 2dahi 
+// 
+// 
+//bodlogo14: 4 tooni iheese 2dahi 
 // let a=20; b=12; c=14; d=16;
-
-// if(a>b && a>c && a>d) {
-//     if(b>c && b>d) {
-//         console.log(b)
-//     }
-//     if(c>b && c>d) {
-//         console.log(c)
-//     }
-//     if(d>b && d>c) {
-//         console.log(d)
-//     }    
+// 
+// if(a>b && a>c && a>d) {    
+    // if(b>c && b>d) {
+        // console.log(b)
+    // }
+    // if(c>b && c>d) {
+        // console.log(c)
+    // }
+    // if(d>b && d>c) {
+        // console.log(d)
+    // }    
 // } 
 
 // if(b>a && b>c && b>d) {
-//     if(a>c && a>d) {
-//         console.log(a)
-//     }
-//     if(c>a && c>d)
-//         console.log(c)
-//     if(d>a && d>c)
-//         console.log(d)
+    // if(a>c && a>d) {
+        // console.log(a)
+    // }
+    // if(c>a && c>d)
+        // console.log(c)
+    // if(d>a && d>c)
+        // console.log(d)
 // } 
 
 // if(c>a && c>b && c>d) {
-//     if(a>b && a>d) {
-//         console.log(a)
-//     }
-//     if(b>a && b>d) {
-//         console.log(b)
-//     }
-//     if(d>a && d>b) {
-//         console.log(d)
-//     }
+    // if(a>b && a>d) {
+        // console.log(a)
+    // }
+    // if(b>a && b>d) {
+        // console.log(b)
+    // }
+    // if(d>a && d>b) {
+        // console.log(d)
+    // }
 // }
 
 // if(d>a && d>b && d>c) {
-//     if(a>b && a>c) {
-//         console.log(a)
-//     }
-//     if(b>a && b>c) {
-//         console.log(b)
-//     }
-//     if(c>a && c>d) {
-//         console.log(c)
-//     }
+    // if(a>b && a>c) {
+        // console.log(a)
+    // }
+    // if(b>a && b>c) {
+        // console.log(b)
+    // }
+    // if(c>a && c>d) {
+        // console.log(c)
+    // }
 // } 
+// 
 
+// 21. 3-37 хүртэлх тоонуудаас 5д хуваагддаг тоонуудыг дарааллуулан хэвлэ
+// let i = 0;
+// while(i<37) {
+  // i++
+  // if (i % 5 == 0) {
+    // console.log("21", i);
+  // } 
+// } 
+// 
+// 23. Өгөгдсөн эерэг тооны тэгш цифрүүдийн үржвэрийг олно уу
+// Жишээ нь 4019 үед 4 * 0 == 0
 
+// let a = 1; b = 9; c = 8; d = 4;
+// multiple = 1;
+// if(a % 2 == 0) {
+  // multiple*=a
+// }
+// if(b % 2 == 0) {
+  // multiple*=b
+// }
+// if(c % 2 == 0) {
+  // multiple*=c
+// }
+// if(d % 2 == 0) {
+  // multiple*=d
+// }
+// console.log(multiple) 
 
-//bodlogo17:  1-ees 1000 hurtelh 3-t huwaagddag 
+// 26. N тоо өгөгдөнө, Хэрэв N тоо тэгш бол 2-т хуваа эсвэл сондгой бол 3 аар үржиж 1 ийг нэм. 
+// Дээрх үйлдлийг N нь 1 тэй тэнцүү болох хүртэл хэдэн удаа давтах вэ.
+let n =  10,  a = 0
 
+if(n%2 == 0) {
+  while(n>0) {
+    n = n/2
+    a++
+  }
+  console.log(a)
+} else{
+  console.log(n*3+1)
+} 
 
-
-//Right Triangle Star Pattern
-
-let star = 10;
-while("*"<=8) {
-    console.log("*")
-}
+// 27. Өгөгдсөн эерэг тооны тэгш цифрүүдийн үржвэр болон сондгой цифрүүдийн нийлбэрийн зөрүүг олоорой 
