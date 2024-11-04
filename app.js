@@ -12,9 +12,9 @@ var lastname = "done"
 
 console.log(message, firstName);
 
-age = 31
+let age = 31;
 console.log(age, lastname);
-let age = 30;
+let num = 30;
 console.log(typeof age);
 
 a=4; b=4 
