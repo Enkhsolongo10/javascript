@@ -79,22 +79,18 @@
 // }   
 // console.log(odd, even) 
  
-//nemelt exercises ODTOI**
+// nemelt exercises ODTOI**
 // let pattern ='';
 // let i=0;
 // while(i<=10){
-//   i+=1;
-//   pattern+="*"; 
-//   console.log(pattern);
+  // i+=1;
+  // pattern =  pattern +"*"; //teacher-s tailbar awsan!
+  // console.log(pattern);
 // } 
 
-const n=5;
-for(let i = 0; i < n; i++) {
-    let stars = ""
-    for(let a = 0; a < n; a++) {
-        stars+="*"
-    }
-    console.log(stars)
+let n = 5;
+let index=1;
+while(i<=5) {
+  star = star +"*"
+  console.log(star)
 }
-
-
