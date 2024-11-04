@@ -207,9 +207,4 @@
 
 
 
-//Right Triangle Star Pattern
-
-let star = 10;
-while("*"<=8) {
-    console.log("*")
-}
+//Right Triangle Star Pattez
