@@ -80,21 +80,43 @@
 // console.log(odd, even) 
  
 //nemelt exercises ODTOI**
-// let pattern ='';
-// let i=0;
-// while(i<=10){
-//   i+=1;
-//   pattern+="*"; 
-//   console.log(pattern);
-// } 
+let pattern ='';
+let i=0;
+while(i<5){
+  i++;
+  pattern+=" *"; 
+  console.log(pattern);
+} 
 
-const n=5;
-for(let i = 0; i < n; i++) {
-    let stars = ""
-    for(let a = 0; a < n; a++) {
-        stars+="*"
-    }
-    console.log(stars)
-}
+let model = '';
+for(i=0; i<5; i++) { // i+=1; i+1=i; i++; it's all the same
+    model+=" *"; // oilgoloo ==> ene model gdg n dr default utga n bi ugtsun bgaa, tgheer for dotor utgiig n dahij ugjiinu gsn ug (* negeer nemegdd ywna geed) 
+    console.log(model); //eniig ingeed gadaanan gargahaar loop n uilchlehgui baih n bna only 5 sh * garj irne (dawtamj gdg for command n ajilahgui gsn ug)
+} 
+// const n=5;
+// for(let i = 0; i < n; i++) {
+//     let stars = ""
+//     for(let a = 0; a < n; a++) {
+//         stars+=" *"
+//     }
+//     console.log(stars)
+// }    
+
+// let star = '';
+// let i=1;
+// while(i<=5) {
+//     i+=1;
+//     star+=" *"
+//     console.log(star)
+// }   
+
+
+// * 
+// * * 
+// * * * 
+// * * * * 
+
+
+
 
 
