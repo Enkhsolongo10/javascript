@@ -79,13 +79,13 @@
 // }   
 // console.log(odd, even) 
  
-//nemelt exercises ODTOI**
+// nemelt exercises ODTOI**
 // let pattern ='';
 // let i=0;
-// while(i<5){
-//   i++;
-//   pattern+=" *"; 
-//   console.log(pattern);
+// while(i<=10){
+  // i+=1;
+  // pattern =  pattern +"*"; //teacher-s tailbar awsan!
+  // console.log(pattern);
 // } 
 
 // let model = '';
