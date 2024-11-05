@@ -14,4 +14,12 @@
 // } 
 
 //TRIANGLE-EXERCISE
-//1. SQUARE 
+//1. Square
+let square = '';
+let i = 0;
+
+while(i<=5) {
+    i++; 
+    square = square + " *"
+    console.log(square)
+} 
