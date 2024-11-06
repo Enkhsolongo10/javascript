@@ -107,13 +107,15 @@ let i=0;
 while(i<s) {
     i+=1;
     let star = "";
-    let k=0;
+    let k=0;  
     while(k<s) {
         k+=1;
         star+=" *"
     }
     console.log(star)
 }  
+
+
 // let star = '';
 // let i=1;
 // while(i<=5) {

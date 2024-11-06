@@ -15,11 +15,16 @@
 
 //TRIANGLE-EXERCISE
 //1. Square
-let square = '';
-let i = 0;
+// const n = 5;
+// let i = 0;
+// while(i<n) {
+//     i++; 
+//     let square ='';
 
-while(i<=5) {
-    i++; 
-    square = square + " *"
-    console.log(square)
-} 
+//     let k = 0;
+//     while(k<n) {
+//         k++;
+//         let square = " *";
+//     }
+//     console.log(square)
+// } 
