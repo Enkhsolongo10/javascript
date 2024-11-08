@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .task {
+            border: 4px solid gray;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 30px;
+            font-size: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="createNewTask();">New Task</button>
+    
+    <div id = "connectTasks">
+        <!-- generated tasks -->
+    </div>
+</body>
+
+<script>
+    function createNewTask() {
+        const task = prompt("Enter your task!") 
+        document.getElementById("connectTasks").innerHTML += '<div class="task">' + task + "</div>";
+       
+    }
+</script>
+</html>
