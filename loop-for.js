@@ -102,18 +102,18 @@
 //     console.log(stars)
 // }    
 
-const s=5;
-let i=0;
-while(i<s) {
-    i+=1;
-    let star = "";
-    let k=0;  
-    while(k<s) {
-        k+=1;
-        star+=" *"
-    }
-    console.log(star)
-}  
+// const s=5;
+// let i=0;
+// while(i<s) {
+//     i+=1;
+//     let star = "";
+//     let k=0;  
+//     while(k<s) {
+//         k+=1;
+//         star+=" *"
+//     }
+//     console.log(star)
+// }  
 
 
 // let star = '';
