@@ -1,4 +1,16 @@
-//--> bi ajlaa duusgachihaad bagshiin heljiigaa chuhal ymnuudiig amy wangiin argaar temdeglej awna tgd yg ummnuh shigee task angi deerh 2iig tusd n hiine 
+// --> 1.Arithmetic Operators <--
+
+let a = 5; b = 10;
+
+let sum = a + b; // 15
+let sub = a - b; // -5 
+let mul = a * b; // 50
+let div = a / b; // 0.5 
+let inc = a++; // 6
+let dec = b--; // 10
+
+
+// --> 2.Comparison Operators <--
 
 
 
