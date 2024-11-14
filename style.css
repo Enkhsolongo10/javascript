@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: ;
+  }
+
+  body {
+    background-color: rgba(26, 26, 26, 1);
+    width: 100%;
+  }
+   
+  .button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    margin-right: 20px;
+  }
+  button {
+    background-color: rgba(0, 163, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-top: 5px;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+   
+  .container {
+    display: flex;
+    margin-top: 120px;
+  }
+  
+  .todos {
+    width: 300px;
+    height: 672px;
+    color: #ffffff;
+    background-color: rgba(16, 16, 16, 1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    gap: 10px;
+    margin: 0 auto 0 auto;
+    font-family:hgh;
+  }
+  .todos-head {
+    width: 240px;
+    height: 40px;
+    margin: 15px 0 0 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .circle1 {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: rgba(217, 217, 217, 1);
+    margin-top: 7px;
+  }
+  .circle2 {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: rgba(163, 163, 0, 1);
+    margin-top: 7px;
+  }
+  .circle3 {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: rgba(0, 163, 0, 1);
+    margin-top: 7px;
+  }
+  .circle4 {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: rgba(163, 0, 0, 1);
+    margin-top: 7px;
+  }
+  .todo-item {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  div > button {
+    background-color: rgb(36, 144, 50);
+    padding: 5px;
+  }
+  #modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(26, 26, 26, 0.7);
+    z-index: 3;
+    display: none;
+   
+  }
+  .modal-open {
+    display: block;
+  }
+  .modal-content {
+    background-color: #1e1e1e;
+    margin: 200px auto;
+    width: 370px;
+    height: 376px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 12px;
+    color: rgba(255, 255, 255, 1);
+  }
+  .Enter {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+
+  .modal-content > input {
+    width: 290px;
+    height: 43px;
+    margin-left: 40px;
+    margin-top: 20px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    color: #999999;
+    border: 1px solid gray;
+    border-radius: 4px;
+  }
+
+  div > h1 {
+    color: #999999;
+  }
+  select {
+    width: 290px;
+    height: 43px;
+    margin: 10px;
+    background-color: #1e1e1e;
+    color: #999999;
+    border-radius: 4px;
+    margin-left: 40px;
+  }
+  .submit {
+    width: 290px;
+    height: 44px;
+    background-color: rgba(0, 163, 0, 1);
+    color: #ffffff;
+    margin-top: 110px;
+    margin-left: 40px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+  }
+   
