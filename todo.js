@@ -70,23 +70,26 @@ function render() {
     console.log(todoList);
     let taskList = todoList.querySelector(".tasks");
     const item = todos[i];
- 
+    
     const element = document.createElement("div");
     element.classList.add("todo-item");
- 
+    
     const titleEl = document.createElement("p");
     titleEl.style.color = "#ffffff";
     titleEl.innerText = " " + item.name;
- 
     
-    const btnEl = document.createElement("Button");
-    btnEl.innerText = "Edit";
+        const StatusEl = document.createElement("p");
+        StatusEl.classList.add("Status");
+    
+        
+    const btnEl = document.createElement("img");
+    btnEl.src = "edit.png";
     btnEl.onclick = function () {
       editStatus(i);
     };
  
-    const deletebtnEl = document.createElement("Button");
-    deletebtnEl.innerText = "Delete";
+    const deletebtnEl = document.createElement("img");
+    deletebtnEl.src = "delete.png";
     deletebtnEl.onclick = function () {
       deleteOne(i);
     };

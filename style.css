@@ -14,41 +14,58 @@
     justify-content: flex-end;
     margin-top: 40px;
     margin-right: 20px;
+    height: 44px;
   }
   button {
+    width: 109px;
+    height: 44px;
     background-color: rgba(0, 163, 0, 1);
-    color: rgba(255, 255, 255, 1);
-    margin-top: 5px;
+    color: #ffffff;
     border: none;
-    border-radius: 3px;
+    border-radius: 4px;
     padding: 8px 12px;
     cursor: pointer;
     font-weight: bold;
+    margin-right: 25px;
   }
    
   .container {
     display: flex;
-    margin-top: 120px;
+    margin-top: 20px;
+    margin-bottom: 40px;
   }
   
   .todos {
     width: 300px;
     height: 672px;
     color: #ffffff;
-    background-color: rgba(16, 16, 16, 1);
+    background-color: black;
     display: flex;
     flex-direction: column;
     border-radius: 12px;
     gap: 10px;
     margin: 0 auto 0 auto;
-    font-family:hgh;
+    align-items: center;
   }
   .todos-head {
-    width: 240px;
-    height: 40px;
+    width: 260px;
+    height: 42px;
     margin: 15px 0 0 20px;
     display: flex;
     gap: 10px;
+    margin-right: 20px;
+    padding-left: 3px;
+    margin-top: 20px;
+  }    
+  .title1 {
+    width: 200px;
+    height: 22px;
+  }
+  .todo-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 4px;
   }
   
   .circle1 {
@@ -80,8 +97,23 @@
     margin-top: 7px;
   }
   .todo-item {
+    background-color: #1e1e1e;
+    padding: 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    border-radius: 10px;
+    word-wrap: break-word;
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    width: 220px;
+    margin-bottom: 8px;
+  }
+  .todo-item img {
+    width: 16px;
+    height: 16px;
+    align-items: center;
+   
   }
   div > button {
     background-color: rgb(36, 144, 50);
@@ -158,4 +190,4 @@
     font-weight: bold;
     font-size: 16px;
   }
-   
+
